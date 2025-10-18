@@ -11,101 +11,116 @@
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
 
-  <!-- Header -->
-  <header class="text-center py-16 bg-gray-800">
-    <h1 class="text-5xl font-bold text-cyan-400 animate-pulse">👋 Hi, I'm Nikhil Bhardwaj</h1>
-    <h3 class="text-2xl mt-2 text-gray-300">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
-    <div class="flex justify-center mt-6 gap-4">
-      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="bg-cyan-500 px-4 py-2 rounded text-white hover:bg-cyan-600 transition">Email Me</a>
-      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="bg-blue-700 px-4 py-2 rounded text-white hover:bg-blue-800 transition">LinkedIn</a>
-      <a href="https://github.com/Nikhil-MLOPs" class="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600 transition">GitHub</a>
+<!-- Navbar -->
+<nav class="fixed w-full bg-gray-900 z-50 shadow-lg border-b border-cyan-500">
+  <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+    <div class="text-cyan-400 font-extrabold text-xl">Nikhil Bhardwaj</div>
+    <div class="space-x-6">
+      <a href="#about" class="hover:text-cyan-400 transition">About</a>
+      <a href="#tech" class="hover:text-cyan-400 transition">Tech Stack</a>
+      <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+      <a href="#github-stats" class="hover:text-cyan-400 transition">GitHub</a>
+      <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <!-- About Me -->
-  <section id="about" class="max-w-4xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">About Me</h2>
-    <p class="text-gray-300 leading-relaxed mb-4">
-      I’m a postgraduate from <strong>IIT Dhanbad</strong> specializing in <strong>Machine Learning, MLOps, and Quantitative Analysis</strong>.  
-      I enjoy building scalable ML pipelines, automated CI/CD systems, and production-grade deployments.
-    </p>
-    <p class="text-gray-300 leading-relaxed">
-      I have built a <strong>GPT-2 LLM from scratch</strong> and a <strong>PDF RAG system</strong> for intelligent document querying.
-    </p>
-  </section>
+<!-- Hero Section -->
+<header class="text-center py-32 bg-gradient-to-r from-cyan-700 via-blue-800 to-purple-700">
+  <h1 class="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-300 to-purple-400 animate-pulse">
+    👋 Hi, I'm Nikhil Bhardwaj
+  </h1>
+  <h3 class="text-2xl mt-4 text-gray-100">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
+  <div class="flex justify-center mt-8 gap-4">
+    <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="bg-cyan-500 px-6 py-3 rounded-xl text-white hover:bg-cyan-600 transition font-semibold">Email Me</a>
+    <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="bg-blue-700 px-6 py-3 rounded-xl text-white hover:bg-blue-800 transition font-semibold">LinkedIn</a>
+    <a href="https://github.com/Nikhil-MLOPs" class="bg-gray-700 px-6 py-3 rounded-xl text-white hover:bg-gray-600 transition font-semibold">GitHub</a>
+  </div>
+</header>
 
-  <!-- Tech Stack -->
-  <section id="tech" class="bg-gray-800 py-16">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">Tech Stack</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="tech-card">Python</div>
-        <div class="tech-card">SQL</div>
-        <div class="tech-card">XGBoost</div>
-        <div class="tech-card">CNN, RNN, Transformers</div>
-        <div class="tech-card">MLflow, DVC</div>
-        <div class="tech-card">Docker, Kubernetes</div>
-        <div class="tech-card">Prometheus, Grafana</div>
-        <div class="tech-card">AWS, MySQL, Snowflake</div>
-        <div class="tech-card">Power BI, Matplotlib, Plotly</div>
-      </div>
+<!-- About Me -->
+<section id="about" data-animate class="max-w-4xl mx-auto px-6 py-20">
+  <h2 class="text-4xl font-bold text-cyan-400 mb-6 border-l-4 border-cyan-500 pl-3">About Me</h2>
+  <p class="text-gray-300 leading-relaxed mb-4">
+    I’m a postgraduate from <strong>IIT Dhanbad</strong> specializing in <strong>Machine Learning, MLOps, and Quantitative Analysis</strong>.  
+    I have built a <strong>GPT-2 LLM from scratch</strong> and a <strong>PDF RAG system</strong> for intelligent document querying.
+  </p>
+  <p class="text-gray-300 leading-relaxed mb-4">
+    My journey has been non-linear: from attempting <strong>UPSC Civil Services</strong> and learning resilience, to mastering Python & Data Science.  
+    Today, I build **production-grade ML systems** with CI/CD, Docker/Kubernetes deployments, and cloud monitoring.
+  </p>
+</section>
+
+<!-- Tech Stack -->
+<section id="tech" data-animate class="bg-gray-800 py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-cyan-400 mb-8 border-l-4 border-cyan-500 pl-3">Tech Stack</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="tech-card">Python</div>
+      <div class="tech-card">SQL</div>
+      <div class="tech-card">XGBoost</div>
+      <div class="tech-card">CNN, RNN, Transformers</div>
+      <div class="tech-card">MLflow, DVC</div>
+      <div class="tech-card">Docker, Kubernetes</div>
+      <div class="tech-card">Prometheus, Grafana</div>
+      <div class="tech-card">AWS, MySQL, Snowflake</div>
+      <div class="tech-card">Power BI, Matplotlib, Plotly</div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Projects -->
-  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">Projects</h2>
-    <div class="grid gap-6 md:grid-cols-2">
+<!-- Projects -->
+<section id="projects" data-animate class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-4xl font-bold text-cyan-400 mb-8 border-l-4 border-cyan-500 pl-3">Projects</h2>
+  <div class="grid gap-8 md:grid-cols-2">
 
-      <div class="project-card">
-        <h3 class="text-xl font-bold text-cyan-300">
-          <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank">Review Sentiment Analysis</a>
-        </h3>
-        <p class="mt-2 text-gray-300">Automated ML pipelines with DVC & MLflow. Deployed on Kubernetes with monitoring via Prometheus & Grafana.</p>
-      </div>
-
-      <div class="project-card">
-        <h3 class="text-xl font-bold text-cyan-300">
-          <a href="https://github.com/Nikhil-MLOPs/gpt2-from-scratch" target="_blank">GPT-2 LLM from Scratch</a>
-        </h3>
-        <p class="mt-2 text-gray-300">Built a GPT-2 model from scratch including tokenization, training pipeline, and inference.</p>
-      </div>
-
-      <div class="project-card">
-        <h3 class="text-xl font-bold text-cyan-300">
-          <a href="https://github.com/Nikhil-MLOPs/pdf-rag-system" target="_blank">PDF RAG System</a>
-        </h3>
-        <p class="mt-2 text-gray-300">Implemented a retrieval-augmented system for intelligent PDF querying with embeddings + LLM.</p>
-      </div>
-
-    </div>
-  </section>
- <!-- GitHub Stats -->
-<section id="github-stats" class="max-w-5xl mx-auto px-6 py-16">
-  <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">GitHub Stats</h2>
-  <div class="grid gap-6 md:grid-cols-2">
-
-    <!-- GitHub Stats Card -->
-    <div class="bg-gray-800 p-6 rounded shadow">
-      <h3 class="text-xl font-bold text-cyan-300 mb-4">GitHub Stats</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+    <div class="project-card">
+      <h3 class="text-xl font-bold text-cyan-300 mb-2">
+        <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank">Review Sentiment Analysis</a>
+      </h3>
+      <p class="text-gray-300">Automated ML pipelines with DVC & MLflow. Deployed on Kubernetes with monitoring via Prometheus & Grafana.</p>
     </div>
 
-    <!-- GitHub Streak Card -->
-    <div class="bg-gray-800 p-6 rounded shadow">
-      <h3 class="text-xl font-bold text-cyan-300 mb-4">GitHub Streak</h3>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true" alt="GitHub Streak" />
+    <div class="project-card">
+      <h3 class="text-xl font-bold text-cyan-300 mb-2">
+        <a href="https://github.com/Nikhil-MLOPs/gpt2-from-scratch" target="_blank">GPT-2 LLM from Scratch</a>
+      </h3>
+      <p class="text-gray-300">Built a GPT-2 model from scratch including tokenization, training pipeline, and inference.</p>
+    </div>
+
+    <div class="project-card">
+      <h3 class="text-xl font-bold text-cyan-300 mb-2">
+        <a href="https://github.com/Nikhil-MLOPs/pdf-rag-system" target="_blank">PDF RAG System</a>
+      </h3>
+      <p class="text-gray-300">Implemented a retrieval-augmented system for intelligent PDF querying with embeddings + LLM.</p>
     </div>
 
   </div>
 </section>
 
-  <!-- Contact -->
-  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h2 class="text-3xl font-bold text-cyan-400 mb-4 border-b-2 border-cyan-600 inline-block">Contact Me</h2>
-    <p class="text-gray-300 mb-4">📧 <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="underline text-cyan-300">nikhil.bhardwaj.mlops@gmail.com</a></p>
-    <p class="text-gray-300">🌐 <a href="https://nikhil-mlops.github.io/" class="underline text-cyan-300">nikhil-mlops.github.io</a></p>
-  </section>
+<!-- GitHub Stats -->
+<section id="github-stats" data-animate class="max-w-6xl mx-auto px-6 py-20">
+  <h2 class="text-4xl font-bold text-cyan-400 mb-8 border-l-4 border-cyan-500 pl-3">GitHub Stats</h2>
+  <div class="grid gap-6 md:grid-cols-2">
+    <div class="bg-gray-800 p-6 rounded shadow">
+      <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+    </div>
+    <div class="bg-gray-800 p-6 rounded shadow">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true" alt="GitHub Streak" />
+    </div>
+  </div>
+</section>
 
+<!-- Contact -->
+<section id="contact" data-animate class="max-w-4xl mx-auto px-6 py-20 text-center">
+  <h2 class="text-4xl font-bold text-cyan-400 mb-4 border-l-4 border-cyan-500 pl-3">Contact Me</h2>
+  <p class="text-gray-300 mb-2">📧 <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="underline text-cyan-300">nikhil.bhardwaj.mlops@gmail.com</a></p>
+  <p class="text-gray-300">🌐 <a href="https://nikhil-mlops.github.io/" class="underline text-cyan-300">nikhil-mlops.github.io</a></p>
+</section>
+
+<!-- Back to Top -->
+<button id="backToTop" class="fixed bottom-6 right-6 bg-cyan-500 text-white p-3 rounded-full shadow-lg hidden hover:bg-cyan-600 transition">↑ Top</button>
+
+<script src="css/script.js"></script>
 </body>
 </html>
