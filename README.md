@@ -77,8 +77,9 @@ Now, I build **production-grade ML systems** with CI/CD pipelines, Docker/Kubern
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true&hide=streak" height="160" />
 </p>
+
 
 ---
 
