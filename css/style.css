@@ -1,12 +1,39 @@
-body {
-  scroll-behavior: smooth;
+/* Tech Stack Cards */
+.tech-card {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #06b6d4;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: default;
 }
 
-a:hover {
-  text-decoration: underline;
+.tech-card:hover {
+  transform: scale(1.05);
+  background-color: #374151;
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 .project-card:hover {
   transform: scale(1.05);
-  transition: 0.3s;
+  background-color: #374151;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links hover */
+a:hover {
+  text-decoration: underline;
 }
