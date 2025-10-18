@@ -3,88 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nikhil Bhardwaj | Machine Learning & MLOps Engineer</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/yourgithubid" />
+  <title>Nikhil Bhardwaj | ML & MLOps Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top left, #0f172a, #020617);
+      color: #e2e8f0;
+      scroll-behavior: smooth;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  </style>
 </head>
-<body>
-  <header>
-    <h1>Nikhil Bhardwaj</h1>
-    <p>🚀 Machine Learning & MLOps Engineer</p>
-    <div class="social-links">
-      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/">LinkedIn</a>
-      <a href="https://github.com/Nikhil-MLOPs">GitHub</a>
-    </div>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a postgraduate from <b>IIT Dhanbad</b> with experience in Quantitative Analysis,
-      Machine Learning, and MLOps. Passionate about building scalable ML systems,
-      automating workflows, and deploying production-grade AI solutions using
-      Docker, Kubernetes, MLflow, and AWS.
+<body class="overflow-x-hidden">
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center p-10">
+    <h1 class="text-5xl md:text-6xl font-bold text-cyan-400 mb-3 animate-pulse">Nikhil Bhardwaj</h1>
+    <p class="text-xl text-gray-300 mb-6">Machine Learning & MLOps Engineer | IIT Dhanbad</p>
+    <div class="flex gap-5">
+      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="px-5 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-600 text-black font-semibold">Email</a>
+      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="px-5 py-2 rounded-xl border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black">LinkedIn</a>
+      <a href="https://github.com/Nikhil-MLOPs" class="px-5 py-2 rounded-xl border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black">GitHub</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="p-10 max-w-4xl mx-auto text-center glass rounded-3xl mb-10">
+    <h2 class="text-3xl font-semibold text-cyan-400 mb-4">About Me</h2>
+    <p class="text-gray-300 leading-relaxed">
+      I'm a postgraduate from <b>IIT Dhanbad</b> with hands-on experience in Machine Learning,
+      Quantitative Analysis, and MLOps. Passionate about building scalable ML systems, automating workflows,
+      and deploying production-grade AI solutions using Docker, Kubernetes, MLflow, and AWS.
     </p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><b>Languages:</b> Python, SQL</li>
-      <li><b>Machine Learning:</b> Regression, Classification, XGBoost, CNN, RNN, Transformers</li>
-      <li><b>MLOps:</b> MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana</li>
-      <li><b>Visualization:</b> Power BI, AWS QuickSight, Matplotlib, Seaborn, Plotly</li>
-      <li><b>Cloud:</b> AWS (S3, IAM, EC2, ECR, EKS)</li>
-      <li><b>Databases:</b> MySQL, Snowflake</li>
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="exp">
-      <h3>Quantitative Analyst — Opendoor / Home.LLC (Remote)</h3>
-      <p><i>Jul 2024 – Mar 2025</i></p>
-      <ul>
-        <li>Improved data quality by 25% using Snowflake SQL.</li>
-        <li>Built 50+ AWS QuickSight dashboards increasing engagement by 30%.</li>
-        <li>Delivered 20+ analytical reports for strategic decisions.</li>
-      </ul>
-    </div>
-    <div class="exp">
-      <h3>Machine Learning Intern — Internpe (Remote)</h3>
-      <p><i>May 2024 – Jun 2024</i></p>
-      <ul>
-        <li>Built predictive models improving accuracy by 10%.</li>
-        <li>Processed 10 000+ datapoints using Pandas & Scikit-learn.</li>
-        <li>Enhanced stakeholder understanding through insights & reports.</li>
-      </ul>
+  <!-- Skills -->
+  <section id="skills" class="p-10 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Skills</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Languages</h3>
+        <p>Python, SQL</p>
+      </div>
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Machine Learning</h3>
+        <p>Regression, Classification, XGBoost, CNN, RNN, Transformers</p>
+      </div>
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl mb-3 text-cyan-300">MLOps Tools</h3>
+        <p>MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana</p>
+      </div>
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Cloud & Visualization</h3>
+        <p>AWS (S3, ECR, EKS), Power BI, QuickSight, Matplotlib, Seaborn, Plotly</p>
+      </div>
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3><a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis">Review Sentiment Analysis</a></h3>
-      <p>Data versioning (DVC), experiment tracking (MLflow), CI/CD (GitHub Actions), containerized (Docker), deployed (EKS), monitored (Prometheus & Grafana).</p>
-    </div>
-    <div class="project">
-      <h3><a href="https://github.com/nikhilgreen92/HomeLLC_Assignment/blob/main/Assignment_Submission_HOME_LLC.ipynb">Linear Regression on Real Estate Data</a></h3>
-      <p>Predicted Housing Price Index using macroeconomic indicators with EDA & feature engineering.</p>
+  <!-- Projects -->
+  <section id="projects" class="p-10 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2 text-cyan-300">Review Sentiment Analysis</h3>
+        <p class="text-gray-300 mb-3">DVC, MLflow, Docker, GitHub Actions, Prometheus, Grafana</p>
+        <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank" class="text-cyan-400 hover:underline">View Project →</a>
+      </div>
+      <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold mb-2 text-cyan-300">Linear Regression on Real Estate</h3>
+        <p class="text-gray-300 mb-3">EDA, feature engineering, macroeconomic indicators, visualization</p>
+        <a href="https://github.com/nikhilgreen92/HomeLLC_Assignment/blob/main/Assignment_Submission_HOME_LLC.ipynb" target="_blank" class="text-cyan-400 hover:underline">View Project →</a>
+      </div>
     </div>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><b>IIT Dhanbad</b> — M.Tech, Power Electronics & Electrical Drives (2015–2017) | GPA 8.53 / 10</li>
-      <li><b>Bharati Vidyapeeth College of Engineering, Pune</b> — B.Tech, Electrical Engineering (2010–2014) | 70.29%</li>
-    </ul>
+  <!-- Experience -->
+  <section id="experience" class="p-10 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Experience</h2>
+    <div class="space-y-6">
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl text-cyan-300">Quantitative Analyst — Home.LLC</h3>
+        <p class="text-sm text-gray-400 mb-2">Jul 2024 – Mar 2025</p>
+        <ul class="list-disc list-inside text-gray-300">
+          <li>Improved data quality by 25% using Snowflake SQL.</li>
+          <li>Created 50+ dashboards on AWS QuickSight, boosting engagement 30%.</li>
+          <li>Delivered 20+ analytical reports for strategic decisions.</li>
+        </ul>
+      </div>
+      <div class="glass p-6 rounded-2xl">
+        <h3 class="font-semibold text-xl text-cyan-300">Machine Learning Intern — Internpe</h3>
+        <p class="text-sm text-gray-400 mb-2">May 2024 – Jun 2024</p>
+        <ul class="list-disc list-inside text-gray-300">
+          <li>Built predictive models improving accuracy by 10%.</li>
+          <li>Processed 10k+ datapoints with Pandas and Scikit-learn.</li>
+          <li>Improved stakeholder understanding through data storytelling.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 Nikhil Bhardwaj | Built with ❤️ using HTML & CSS</p>
+  <!-- Education -->
+  <section id="education" class="p-10 max-w-4xl mx-auto text-center glass rounded-2xl mb-10">
+    <h2 class="text-3xl font-semibold text-cyan-400 mb-4">Education</h2>
+    <p>🎓 <b>IIT Dhanbad</b> — M.Tech, Power Electronics & Electrical Drives (2015–2017) | GPA: 8.53 / 10</p>
+    <p>🎓 <b>Bharati Vidyapeeth College of Engineering, Pune</b> — B.Tech, Electrical Engineering (2010–2014)</p>
+  </section>
+
+  <footer class="text-center text-gray-500 py-6 border-t border-gray-700">
+    © 2025 Nikhil Bhardwaj | Built with 💙 using Tailwind CSS
   </footer>
+
+  <script>
+    ScrollReveal().reveal('.glass', { interval: 150, distance: '50px', origin: 'bottom', duration: 800 });
+  </script>
 </body>
 </html>
+
 
