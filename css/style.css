@@ -1,51 +1,56 @@
-/* Tech Stack Cards */
-.tech-card {
-  background-color: #1f2937;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  text-align: center;
-  font-weight: bold;
-  color: #06b6d4;
-  transition: transform 0.3s, background-color 0.3s;
-  cursor: default;
+body {
+  scroll-behavior: smooth;
 }
 
+/* Tech Cards */
+.tech-card {
+  background: linear-gradient(135deg, #0ea5e9, #818cf8);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+  color: #f0f9ff;
+  transition: transform 0.3s, background 0.3s;
+  cursor: default;
+}
 .tech-card:hover {
   transform: scale(1.05);
-  background-color: #374151;
+  background: linear-gradient(135deg, #06b6d4, #7c3aed);
 }
 
 /* Project Cards */
 .project-card {
-  background-color: #1f2937;
+  background: #1f2937;
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   transition: transform 0.3s, background-color 0.3s;
 }
-
 .project-card:hover {
   transform: scale(1.05);
   background-color: #374151;
 }
 
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
+/* Scroll Animations */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+[data-animate].visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Links hover */
-a:hover {
-  text-decoration: underline;
+/* Back to Top */
+#backToTop {
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+#backToTop:hover {
+  transform: scale(1.1);
 }
 
-/* GitHub Stats Cards */
-#github-stats img {
-  width: 100%;
-  border-radius: 0.5rem;
-  transition: transform 0.3s;
+/* Gradient Text */
+h1, h2, h3 {
+  transition: all 0.3s ease;
 }
-
-#github-stats img:hover {
-  transform: scale(1.02);
-}
-
