@@ -16,19 +16,30 @@
 ---
 
 ## 🧠 About Me: Navigating the Nuances of Data
-I've always been driven by a desire to challenge myself and pursue ambitious goals. This drive led me to earn an **M.Tech in Electrical Engineering from the prestigious IIT Dhanbad**, where I honed my technical skills and problem-solving abilities through rigorous work and discipline.  
 
-My next big challenge was the **UPSC Civil Services Exam** — one of India’s toughest. Although I narrowly missed the prelims by just **0.17 marks**, the experience instilled in me **resilience, discipline, and strategic thinking**.  
+From an early age, I’ve been driven by curiosity and a desire to challenge myself. This mindset led me to pursue an **M.Tech in Electrical Engineering from the prestigious IIT Dhanbad**, where I mastered core technical concepts and honed my problem-solving, analytical, and research skills through rigorous coursework and hands-on projects.  
 
-From an early age, I was passionate about **Mathematics**, and this naturally evolved into a love for **Python and Data Science**. Eager to build a solid foundation, I completed a **6-month intensive Data Science & Machine Learning program at Odin School**, where I applied theory to real-world datasets and projects.  
+After completing my M.Tech, I took on one of India’s most competitive challenges: the **UPSC Civil Services Exam**. Although I narrowly missed the prelims by just **0.17 marks**, the experience taught me invaluable lessons in **resilience, discipline, strategic planning, and mental endurance**—qualities that now shape my professional and personal approach.  
 
-Currently, I’m gaining hands-on experience as a **Quantitative Analyst at Opendoor (on payroll of Home.LLC)**, working on impactful real-world projects, collaborating with professionals, and continuously expanding my knowledge.  
+Mathematics has always been a central passion of mine, and over time, this evolved into an interest in **Python and programming**, which eventually led me to **Data Science and Machine Learning**. Recognizing the need for practical, real-world experience, I enrolled in a **6-month intensive Data Science & Machine Learning program at Odin School**, where I applied theory to real-world datasets and projects.  
 
-Along the way, I have also:  
-- Built a **GPT-2 LLM from scratch**  
-- Developed a **PDF RAG system** for intelligent document querying  
+Today, I’m applying my skills as a **Quantitative Analyst at Opendoor (on payroll of Home.LLC)**, working on high-impact projects, collaborating with professionals, and continuously expanding my knowledge.  
 
-My journey may not have been linear, but each experience has shaped me into a **determined, adaptable, and data-driven professional**. I am eager to leverage my technical expertise, analytical skills, and relentless curiosity to contribute meaningfully to the evolving world of **Data Science & MLOps**.
+Beyond my professional work, I am actively developing **personal projects** to strengthen my expertise and explore cutting-edge applications:  
+- **RAG Systems:** Implementing retrieval-augmented systems for intelligent document querying.  
+- **GPT-2 LLM from Scratch:** Building language models end-to-end, from tokenization to training pipelines and inference.  
+- **MLOps Principles:** Designing production-grade ML workflows, including **CI/CD, Docker/Kubernetes deployments, experiment tracking, and cloud monitoring**.  
+
+Along my journey, I have also:  
+- **Built a GPT-2 LLM from scratch**, implementing everything from tokenization to training pipelines and inference mechanisms.  
+- **Developed a PDF RAG system** for intelligent document querying, combining embeddings and LLMs to extract insights efficiently.  
+- **Designed production-ready ML workflows** with CI/CD, Docker/Kubernetes deployments, and cloud-based monitoring for real-world applications.  
+
+I believe that data is not just numbers—it’s a powerful tool to **solve real-world problems, uncover insights, and drive meaningful change**. My journey may not have been linear, but it has made me a **disciplined, adaptable, and relentlessly curious professional**, eager to contribute to the ever-evolving world of **Data Science & MLOps**.  
+
+I am now **actively seeking opportunities** where I can leverage my technical expertise, problem-solving skills, and hands-on experience to **build scalable ML systems, implement MLOps principles, and drive data-driven impact** in a professional setting.  
+
+I thrive on challenges, enjoy learning continuously, and aim to create **impactful solutions** that blend logic, creativity, and technological excellence.  
 
 ---
 
@@ -81,8 +92,7 @@ My journey may not have been linear, but each experience has shaped me into a **
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true&hide=streak" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true&count_private=true" height="160" />
 </p>
 
 ---
