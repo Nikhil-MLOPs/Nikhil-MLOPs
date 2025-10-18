@@ -1,131 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nikhil Bhardwaj | ML & MLOps Engineer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nikhil Bhardwaj — Machine Learning & MLOps</title>
+  <meta name="description" content="Nikhil Bhardwaj — ML & MLOps engineer. IIT Dhanbad. Projects: Review Sentiment Analysis, Real Estate Regression.">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: radial-gradient(circle at top left, #0f172a, #020617);
-      color: #e2e8f0;
-      scroll-behavior: smooth;
-    }
-    .glass {
-      background: rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
+  <div class="page">
+    <nav class="nav">
+      <div class="brand">
+        <a href="/" aria-label="Nikhil Bhardwaj home">
+          <div class="logo">NB</div>
+        </a>
+        <div class="brand-text">
+          <div class="name">Nikhil Bhardwaj</div>
+          <div class="title">Machine Learning &amp; MLOps Engineer</div>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="cta">Contact</a>
+      </div>
+    </nav>
 
-<body class="overflow-x-hidden">
-  <!-- Hero -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center p-10">
-    <h1 class="text-5xl md:text-6xl font-bold text-cyan-400 mb-3 animate-pulse">Nikhil Bhardwaj</h1>
-    <p class="text-xl text-gray-300 mb-6">Machine Learning & MLOps Engineer | IIT Dhanbad</p>
-    <div class="flex gap-5">
-      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="px-5 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-600 text-black font-semibold">Email</a>
-      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="px-5 py-2 rounded-xl border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black">LinkedIn</a>
-      <a href="https://github.com/Nikhil-MLOPs" class="px-5 py-2 rounded-xl border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black">GitHub</a>
-    </div>
-  </section>
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title">Designing reliable ML systems — from experiments to production.</h1>
+          <p class="hero-lead">
+            Postgraduate from <strong>IIT Dhanbad</strong>. I build scalable ML pipelines, production deployments (Docker, Kubernetes, EKS),
+            and observability with MLflow, Prometheus &amp; Grafana.
+          </p>
 
-  <!-- About -->
-  <section id="about" class="p-10 max-w-4xl mx-auto text-center glass rounded-3xl mb-10">
-    <h2 class="text-3xl font-semibold text-cyan-400 mb-4">About Me</h2>
-    <p class="text-gray-300 leading-relaxed">
-      I'm a postgraduate from <b>IIT Dhanbad</b> with hands-on experience in Machine Learning,
-      Quantitative Analysis, and MLOps. Passionate about building scalable ML systems, automating workflows,
-      and deploying production-grade AI solutions using Docker, Kubernetes, MLflow, and AWS.
-    </p>
-  </section>
+          <div class="hero-cta">
+            <a href="https://github.com/Nikhil-MLOPs" class="btn-outline" target="_blank">View GitHub</a>
+            <a href="#projects" class="btn-primary">Explore Projects</a>
+          </div>
 
-  <!-- Skills -->
-  <section id="skills" class="p-10 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Skills</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Languages</h3>
-        <p>Python, SQL</p>
-      </div>
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Machine Learning</h3>
-        <p>Regression, Classification, XGBoost, CNN, RNN, Transformers</p>
-      </div>
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl mb-3 text-cyan-300">MLOps Tools</h3>
-        <p>MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana</p>
-      </div>
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl mb-3 text-cyan-300">Cloud & Visualization</h3>
-        <p>AWS (S3, ECR, EKS), Power BI, QuickSight, Matplotlib, Seaborn, Plotly</p>
-      </div>
-    </div>
-  </section>
+          <ul class="metrics">
+            <li><strong>25%</strong><span>Data quality improvement — Home.LLC</span></li>
+            <li><strong>50+</strong><span>Dashboards built (QuickSight)</span></li>
+            <li><strong>20+</strong><span>Analytical reports delivered</span></li>
+          </ul>
+        </div>
 
-  <!-- Projects -->
-  <section id="projects" class="p-10 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Projects</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
-        <h3 class="text-xl font-semibold mb-2 text-cyan-300">Review Sentiment Analysis</h3>
-        <p class="text-gray-300 mb-3">DVC, MLflow, Docker, GitHub Actions, Prometheus, Grafana</p>
-        <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank" class="text-cyan-400 hover:underline">View Project →</a>
-      </div>
-      <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
-        <h3 class="text-xl font-semibold mb-2 text-cyan-300">Linear Regression on Real Estate</h3>
-        <p class="text-gray-300 mb-3">EDA, feature engineering, macroeconomic indicators, visualization</p>
-        <a href="https://github.com/nikhilgreen92/HomeLLC_Assignment/blob/main/Assignment_Submission_HOME_LLC.ipynb" target="_blank" class="text-cyan-400 hover:underline">View Project →</a>
-      </div>
-    </div>
-  </section>
+        <aside class="hero-right">
+          <div class="card profile-card">
+            <div class="avatar-wrap">
+              <img src="assets/profile.jpg" alt="Nikhil Bhardwaj" onerror="this.style.display='none'">
+              <div class="avatar-fallback">NB</div>
+            </div>
+            <div class="profile-body">
+              <div class="profile-name">Nikhil Bhardwaj</div>
+              <div class="profile-role">ML &amp; MLOps Engineer</div>
+              <div class="profile-links">
+                <a href="mailto:nikhil.bhardwaj.mlops@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Nikhil-MLOPs" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
 
-  <!-- Experience -->
-  <section id="experience" class="p-10 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-semibold text-center text-cyan-400 mb-8">Experience</h2>
-    <div class="space-y-6">
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl text-cyan-300">Quantitative Analyst — Home.LLC</h3>
-        <p class="text-sm text-gray-400 mb-2">Jul 2024 – Mar 2025</p>
-        <ul class="list-disc list-inside text-gray-300">
-          <li>Improved data quality by 25% using Snowflake SQL.</li>
-          <li>Created 50+ dashboards on AWS QuickSight, boosting engagement 30%.</li>
-          <li>Delivered 20+ analytical reports for strategic decisions.</li>
-        </ul>
+          <div class="card contact-card">
+            <div class="card-title">Quick Contact</div>
+            <div class="card-item"><strong>Email</strong><span>nikhil.bhardwaj.mlops@gmail.com</span></div>
+            <div class="card-item"><strong>Location</strong><span>Bengaluru, India</span></div>
+            <div class="card-item"><strong>Education</strong><span>IIT Dhanbad — M.Tech</span></div>
+          </div>
+        </aside>
       </div>
-      <div class="glass p-6 rounded-2xl">
-        <h3 class="font-semibold text-xl text-cyan-300">Machine Learning Intern — Internpe</h3>
-        <p class="text-sm text-gray-400 mb-2">May 2024 – Jun 2024</p>
-        <ul class="list-disc list-inside text-gray-300">
-          <li>Built predictive models improving accuracy by 10%.</li>
-          <li>Processed 10k+ datapoints with Pandas and Scikit-learn.</li>
-          <li>Improved stakeholder understanding through data storytelling.</li>
-        </ul>
+    </header>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="muted">Projects that reflect production-ready engineering and reproducible ML workflows.</p>
+
+      <div class="grid">
+        <article class="project">
+          <div class="project-head">
+            <h3>Review Sentiment Analysis</h3>
+            <p class="tag">DVC • MLflow • Docker • EKS • Prometheus</p>
+          </div>
+          <p class="project-desc">Data versioning, experiment tracking, CI/CD with GitHub Actions, containerized and deployed on Kubernetes with monitoring.</p>
+          <div class="project-links">
+            <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank">View repo →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Linear Regression — Real Estate</h3>
+            <p class="tag">EDA • Feature Engineering • Visualization</p>
+          </div>
+          <p class="project-desc">Predicting Housing Price Index using macro indicators. EDA, feature engineering, and model interpretation included.</p>
+          <div class="project-links">
+            <a href="https://github.com/nikhilgreen92/HomeLLC_Assignment/blob/main/Assignment_Submission_HOME_LLC.ipynb" target="_blank">Open notebook →</a>
+          </div>
+        </article>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education -->
-  <section id="education" class="p-10 max-w-4xl mx-auto text-center glass rounded-2xl mb-10">
-    <h2 class="text-3xl font-semibold text-cyan-400 mb-4">Education</h2>
-    <p>🎓 <b>IIT Dhanbad</b> — M.Tech, Power Electronics & Electrical Drives (2015–2017) | GPA: 8.53 / 10</p>
-    <p>🎓 <b>Bharati Vidyapeeth College of Engineering, Pune</b> — B.Tech, Electrical Engineering (2010–2014)</p>
-  </section>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="time">Jul 2024 — Mar 2025</div>
+          <div class="timeline-body">
+            <h4>Quantitative Analyst — Opendoor / Home.LLC (Remote)</h4>
+            <ul>
+              <li>Improved data quality by <strong>25%</strong> using Snowflake SQL.</li>
+              <li>Built <strong>50+</strong> interactive dashboards on AWS QuickSight; engagement +30%.</li>
+              <li>Delivered 20+ analytic reports for senior management.</li>
+            </ul>
+          </div>
+        </div>
 
-  <footer class="text-center text-gray-500 py-6 border-t border-gray-700">
-    © 2025 Nikhil Bhardwaj | Built with 💙 using Tailwind CSS
-  </footer>
+        <div class="timeline-item">
+          <div class="time">May 2024 — Jun 2024</div>
+          <div class="timeline-body">
+            <h4>Machine Learning Intern — Internpe (Remote)</h4>
+            <ul>
+              <li>Built predictive models with scikit-learn; accuracy improvement ~<strong>10%</strong>.</li>
+              <li>Processed 10k+ datapoints and automated ETL pipelines.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-grid">
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+        <div class="skill">XGBoost</div>
+        <div class="skill">MLflow</div>
+        <div class="skill">DVC</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">AWS (S3, EKS)</div>
+        <div class="skill">QuickSight • Power BI</div>
+        <div class="skill">Prometheus • Grafana</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container contact-section">
+      <h2 class="section-title">Get in touch</h2>
+      <div class="contact-grid">
+        <form class="contact-form" action="mailto:nikhil.bhardwaj.mlops@gmail.com" method="GET" enctype="text/plain">
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" placeholder="you@domain.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Hi Nikhil — I want to discuss..." required></textarea>
+
+          <div class="form-row">
+            <button type="submit" class="btn-primary">Send Email</button>
+            <a href="https://github.com/Nikhil-MLOPs" class="btn-outline" target="_blank">View GitHub</a>
+          </div>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-title">Email</div>
+            <div class="info-body">nikhil.bhardwaj.mlops@gmail.com</div>
+          </div>
+          <div class="info-card">
+            <div class="info-title">Location</div>
+            <div class="info-body">Bengaluru, India</div>
+          </div>
+          <div class="info-card">
+            <div class="info-title">Education</div>
+            <div class="info-body">IIT Dhanbad — M.Tech</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>© 2025 Nikhil Bhardwaj</div>
+        <div class="footer-links">
+          <a href="https://github.com/Nikhil-MLOPs" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script>
-    ScrollReveal().reveal('.glass', { interval: 150, distance: '50px', origin: 'bottom', duration: 800 });
+    // Smooth reveal on scroll (lightweight)
+    const revealElems = document.querySelectorAll('.section, .project, .timeline-item, .profile-card, .contact-card');
+    const revealOptions = { root: null, threshold: 0.06 };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('reveal');
+      });
+    }, revealOptions);
+    revealElems.forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
-
-
