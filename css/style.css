@@ -37,3 +37,15 @@ html {
 a:hover {
   text-decoration: underline;
 }
+
+/* GitHub Stats Cards */
+#github-stats img {
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: transform 0.3s;
+}
+
+#github-stats img:hover {
+  transform: scale(1.02);
+}
+
