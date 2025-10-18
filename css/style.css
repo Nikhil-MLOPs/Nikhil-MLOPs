@@ -27,3 +27,11 @@
   transform: scale(1.1);
   background-color: #0ea5e9;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* adjust to match navbar height */
+}
+nav a:hover {
+  text-shadow: 0 0 10px #06b6d4;
+  color: #22d3ee;
+}
