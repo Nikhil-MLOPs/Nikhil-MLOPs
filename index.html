@@ -5,33 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nikhil Bhardwaj | ML & MLOps Engineer</title>
 
-  <!-- Tailwind CSS -->
-  <link href="tailwind.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
 
   <!-- Header -->
   <header class="text-center py-16 bg-gray-800">
-    <h1 class="text-5xl font-bold text-cyan-400">👋 Hi, I'm Nikhil Bhardwaj</h1>
-    <h3 class="text-2xl mt-2">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
-    <div class="flex justify-center mt-4 gap-4">
-      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="bg-cyan-500 px-4 py-2 rounded text-white hover:bg-cyan-600">Email Me</a>
-      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="bg-blue-700 px-4 py-2 rounded text-white hover:bg-blue-800">LinkedIn</a>
-      <a href="https://github.com/Nikhil-MLOPs" class="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600">GitHub</a>
+    <h1 class="text-5xl font-bold text-cyan-400 animate-pulse">👋 Hi, I'm Nikhil Bhardwaj</h1>
+    <h3 class="text-2xl mt-2 text-gray-300">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
+    <div class="flex justify-center mt-6 gap-4">
+      <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="bg-cyan-500 px-4 py-2 rounded text-white hover:bg-cyan-600 transition">Email Me</a>
+      <a href="https://www.linkedin.com/in/nikhilbhardwaj11/" class="bg-blue-700 px-4 py-2 rounded text-white hover:bg-blue-800 transition">LinkedIn</a>
+      <a href="https://github.com/Nikhil-MLOPs" class="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600 transition">GitHub</a>
     </div>
   </header>
 
   <!-- About Me -->
   <section id="about" class="max-w-4xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-cyan-400 mb-4">About Me</h2>
-    <p class="text-gray-300 leading-relaxed">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">About Me</h2>
+    <p class="text-gray-300 leading-relaxed mb-4">
       I’m a postgraduate from <strong>IIT Dhanbad</strong> specializing in <strong>Machine Learning, MLOps, and Quantitative Analysis</strong>.  
-      I enjoy building scalable ML pipelines, automated CI/CD systems, and production-grade deployments.  
+      I enjoy building scalable ML pipelines, automated CI/CD systems, and production-grade deployments.
     </p>
-    <p class="text-gray-300 leading-relaxed mt-2">
+    <p class="text-gray-300 leading-relaxed">
       I have built a <strong>GPT-2 LLM from scratch</strong> and a <strong>PDF RAG system</strong> for intelligent document querying.
     </p>
   </section>
@@ -39,33 +37,56 @@
   <!-- Tech Stack -->
   <section id="tech" class="bg-gray-800 py-16">
     <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-cyan-400 mb-6">Tech Stack</h2>
+      <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">Tech Stack</h2>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="bg-gray-700 p-4 rounded text-center">Python</div>
-        <div class="bg-gray-700 p-4 rounded text-center">SQL</div>
-        <div class="bg-gray-700 p-4 rounded text-center">XGBoost</div>
-        <div class="bg-gray-700 p-4 rounded text-center">CNN, RNN, Transformers</div>
-        <div class="bg-gray-700 p-4 rounded text-center">MLflow, DVC</div>
-        <div class="bg-gray-700 p-4 rounded text-center">Docker, Kubernetes</div>
-        <div class="bg-gray-700 p-4 rounded text-center">Prometheus, Grafana</div>
-        <div class="bg-gray-700 p-4 rounded text-center">AWS, MySQL, Snowflake</div>
-        <div class="bg-gray-700 p-4 rounded text-center">Power BI, Matplotlib, Plotly</div>
+        <div class="tech-card">Python</div>
+        <div class="tech-card">SQL</div>
+        <div class="tech-card">XGBoost</div>
+        <div class="tech-card">CNN, RNN, Transformers</div>
+        <div class="tech-card">MLflow, DVC</div>
+        <div class="tech-card">Docker, Kubernetes</div>
+        <div class="tech-card">Prometheus, Grafana</div>
+        <div class="tech-card">AWS, MySQL, Snowflake</div>
+        <div class="tech-card">Power BI, Matplotlib, Plotly</div>
       </div>
     </div>
   </section>
 
   <!-- Projects -->
   <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-cyan-400 mb-6">Projects</h2>
+    <h2 class="text-3xl font-bold text-cyan-400 mb-6 border-b-2 border-cyan-600 inline-block">Projects</h2>
     <div class="grid gap-6 md:grid-cols-2">
 
-      <div class="bg-gray-800 p-6 rounded shadow hover:scale-105 transform transition">
+      <div class="project-card">
         <h3 class="text-xl font-bold text-cyan-300">
           <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank">Review Sentiment Analysis</a>
         </h3>
         <p class="mt-2 text-gray-300">Automated ML pipelines with DVC & MLflow. Deployed on Kubernetes with monitoring via Prometheus & Grafana.</p>
       </div>
 
-      <div class="bg-gray-800 p-6 rounded shadow hover:scale-105 transform transition">
+      <div class="project-card">
         <h3 class="text-xl font-bold text-cyan-300">
-          <a href="https://github.com/Nikhil-MLOPs/gpt2-from-s
+          <a href="https://github.com/Nikhil-MLOPs/gpt2-from-scratch" target="_blank">GPT-2 LLM from Scratch</a>
+        </h3>
+        <p class="mt-2 text-gray-300">Built a GPT-2 model from scratch including tokenization, training pipeline, and inference.</p>
+      </div>
+
+      <div class="project-card">
+        <h3 class="text-xl font-bold text-cyan-300">
+          <a href="https://github.com/Nikhil-MLOPs/pdf-rag-system" target="_blank">PDF RAG System</a>
+        </h3>
+        <p class="mt-2 text-gray-300">Implemented a retrieval-augmented system for intelligent PDF querying with embeddings + LLM.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-4 border-b-2 border-cyan-600 inline-block">Contact Me</h2>
+    <p class="text-gray-300 mb-4">📧 <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="underline text-cyan-300">nikhil.bhardwaj.mlops@gmail.com</a></p>
+    <p class="text-gray-300">🌐 <a href="https://nikhil-mlops.github.io/" class="underline text-cyan-300">nikhil-mlops.github.io</a></p>
+  </section>
+
+</body>
+</html>
