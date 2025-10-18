@@ -15,15 +15,20 @@
 
 ---
 
-## 🧠 About Me
-I’m a postgraduate from **IIT Dhanbad**, specializing in **Machine Learning, MLOps, and Quantitative Analysis**.  
+## 🧠 About Me: Navigating the Nuances of Data
+I've always been driven by a desire to challenge myself and pursue ambitious goals. This drive led me to earn an **M.Tech in Electrical Engineering from the prestigious IIT Dhanbad**, where I honed my technical skills and problem-solving abilities through rigorous work and discipline.  
 
-I have built:  
-- A **GPT-2 LLM from scratch**  
-- A **PDF RAG system** for intelligent document querying  
+My next big challenge was the **UPSC Civil Services Exam** — one of India’s toughest. Although I narrowly missed the prelims by just **0.17 marks**, the experience instilled in me **resilience, discipline, and strategic thinking**.  
 
-My journey has been non-linear: from attempting **UPSC Civil Services** and learning resilience, to mastering **Python & Data Science**.  
-Now, I build **production-grade ML systems** with CI/CD pipelines, Docker/Kubernetes deployments, and cloud monitoring.
+From an early age, I was passionate about **Mathematics**, and this naturally evolved into a love for **Python and Data Science**. Eager to build a solid foundation, I completed a **6-month intensive Data Science & Machine Learning program at Odin School**, where I applied theory to real-world datasets and projects.  
+
+Currently, I’m gaining hands-on experience as a **Quantitative Analyst at Opendoor (on payroll of Home.LLC)**, working on impactful real-world projects, collaborating with professionals, and continuously expanding my knowledge.  
+
+Along the way, I have also:  
+- Built a **GPT-2 LLM from scratch**  
+- Developed a **PDF RAG system** for intelligent document querying  
+
+My journey may not have been linear, but each experience has shaped me into a **determined, adaptable, and data-driven professional**. I am eager to leverage my technical expertise, analytical skills, and relentless curiosity to contribute meaningfully to the evolving world of **Data Science & MLOps**.
 
 ---
 
@@ -79,7 +84,6 @@ Now, I build **production-grade ML systems** with CI/CD pipelines, Docker/Kubern
   <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&theme=dark&hide_border=true" height="160" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-MLOPs&theme=dark&hide_border=true&hide=streak" height="160" />
 </p>
-
 
 ---
 
