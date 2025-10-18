@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Nikhil Bhardwaj</h1>
-<h3 align="center">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
+<h3 align="center">Quantitative Analyst</h3>
 
 <p align="center">
   <a href="mailto:nikhil.bhardwaj.mlops@gmail.com">
