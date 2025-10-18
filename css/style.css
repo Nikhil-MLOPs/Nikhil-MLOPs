@@ -27,11 +27,18 @@
   transform: scale(1.1);
   background-color: #0ea5e9;
 }
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* adjust to match navbar height */
+/* Project Card Hover Effects */
+.project-card {
+  transition: all 0.3s ease-in-out;
 }
-nav a:hover {
-  text-shadow: 0 0 10px #06b6d4;
+
+.project-card:hover {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  transform: translateY(-8px);
+}
+
+.project-card a:hover {
+  text-decoration: underline;
   color: #22d3ee;
 }
+
