@@ -50,9 +50,7 @@ I thrive on challenges, enjoy learning continuously, and aim to create **impactf
 ![SQL](https://img.shields.io/badge/-SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### **Machine Learning**
-![XGBoost](https://img.shields.io/badge/-XGBoost-FF9900?style=for-the-badge&logo=xgboost&logoColor=white)
-![CNN](https://img.shields.io/badge/-CNN-FF6F61?style=for-the-badge)
-![RNN](https://img.shields.io/badge/-RNN-6A0DAD?style=for-the-badge)
+![LLM](https://img.shields.io/badge/-XGBoost-FF9900?style=for-the-badge&logo=xgboost&logoColor=white)
 ![Transformers](https://img.shields.io/badge/-Transformers-000000?style=for-the-badge)
 
 ### **MLOps & DevOps**
@@ -62,7 +60,7 @@ I thrive on challenges, enjoy learning continuously, and aim to create **impactf
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Gradio](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 ### **Visualization & BI**
 ![Power BI](https://img.shields.io/badge/-PowerBI-F2C811?style=for-the-badge&logo=microsoftpowerbi&logoColor=black)
