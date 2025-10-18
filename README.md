@@ -16,13 +16,17 @@
 ---
 
 ## 🧭 About Me
-> 🔹 **Data, Python, ML & MLOps** enthusiast with a flair for solving high-impact problems.  
-> 🔹 IIT Dhanbad alum, with experience in **building GPT-2 LLM from scratch** and **PDF RAG systems**.  
-> 🔹 Passionate about **building scalable ML pipelines, automating workflows, and creating intelligent systems**.  
+I've always been driven by a desire to push myself and chase ambitious goals. This pursuit led me to earn an **M.Tech in Electrical Engineering from the prestigious IIT Dhanbad**, where I honed my technical skills and problem-solving abilities. My next challenge was the **UPSC Civil Services Exam**, one of India’s toughest. While I fell short of the prelims by a hair's breadth (**0.17 marks!**), the experience instilled in me **resilience, discipline, and strategic thinking**.  
 
-From excelling in **M.Tech Electrical Engineering** to tackling **UPSC Civil Services**, my journey has been about resilience, strategy, and continuous learning. I completed a **6-month intensive Data Science & ML program at Odin School**, combining theory with hands-on projects on real-world datasets.  
+From the very start, I was passionate about **Mathematics**, and later explored **Python** to channel that analytical mindset. Over time, I discovered a fascination for **Data Science and Machine Learning**, which can transform industries and solve real-world problems. To gain practical expertise, I completed a **6-month intensive program at Odin School**, combining theory with hands-on projects on real datasets.  
 
-Currently, I’m gaining **practical experience as a Quantitative Analyst at Opendoor**, contributing to real-world ML projects while expanding my technical expertise.
+Along the way, I have also:  
+- **Built a GPT-2 LLM from scratch** — experimenting with transformers, tokenization, and model training pipelines.  
+- **Developed a RAG (Retrieval-Augmented Generation) system for PDFs** — enabling intelligent querying over documents using embeddings and LLMs.  
+
+Currently, I am gaining valuable experience as a **Quantitative Analyst at Opendoor (on payroll of Home.LLC)**, contributing to real-world ML and data projects, collaborating with professionals, and continuously expanding my skills.  
+
+My journey may not have been linear, but each experience has shaped me into a **determined, adaptable, and data-driven professional**. I am eager to leverage my **technical expertise, analytical skills, and curiosity** to make meaningful contributions in the evolving world of **Data Science & MLOps**.
 
 ---
 
@@ -37,29 +41,60 @@ Currently, I’m gaining **practical experience as a Quantitative Analyst at Ope
 
 ---
 
-## 🚀 Projects That Speak
+## 🚀 Projects Portfolio
 
 <div align="center">
 
-### 🧩 [Review Sentiment Analysis](https://github.com/Nikhil-MLOPs/review-sentiment-analysis)  
+### 🧩 [Review Sentiment Analysis](https://github.com/Nikhil-MLOPs/review-sentiment-analysis)
+**What I Built / Impact:**  
+- Automated end-to-end model training & deployment pipelines  
+- Monitored experiments and models in production  
+
+**Tech & Tools:**  
 <img src="https://img.shields.io/badge/DVC-0ef?style=for-the-badge&logo=dvc&logoColor=white&labelColor=000000" />
 <img src="https://img.shields.io/badge/MLflow-0ef?style=for-the-badge&logo=mlflow&logoColor=white&labelColor=000000" />
-💠 **Impact:** Automated model training & deployment pipelines with monitoring
+<img src="https://img.shields.io/badge/Docker-0ef?style=for-the-badge&logo=docker&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/Kubernetes-0ef?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0ef?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/Prometheus-0ef?style=for-the-badge&logo=prometheus&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/Grafana-0ef?style=for-the-badge&logo=grafana&logoColor=white&labelColor=000000" />
 
-### 🏠 [Real Estate Price Prediction](https://github.com/Nikhil-MLOPs/real-estate-price-prediction)  
+---
+
+### 🏠 [Real Estate Price Prediction](https://github.com/Nikhil-MLOPs/real-estate-price-prediction)
+**What I Built / Impact:**  
+- Built regression models predicting Housing Price Index  
+- Performed complete EDA and visualization for insights  
+
+**Tech & Tools:**  
 <img src="https://img.shields.io/badge/Pandas-0ef?style=for-the-badge&logo=pandas&logoColor=white&labelColor=000000" />
 <img src="https://img.shields.io/badge/Scikit-learn-0ef?style=for-the-badge&logo=scikitlearn&logoColor=white&labelColor=000000" />
-💠 **Impact:** Built regression models predicting Housing Price Index with EDA & visualization
+<img src="https://img.shields.io/badge/Matplotlib-0ef?style=for-the-badge&logo=matplotlib&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/Seaborn-0ef?style=for-the-badge&logo=seaborn&logoColor=white&labelColor=000000" />
 
-### 🤖 [GPT-2 LLM from Scratch](https://github.com/Nikhil-MLOPs/gpt2-from-scratch)  
+---
+
+### 🤖 [GPT-2 LLM from Scratch](https://github.com/Nikhil-MLOPs/gpt2-from-scratch)
+**What I Built / Impact:**  
+- Developed a full GPT-2 language model from scratch  
+- Implemented tokenization, training pipeline, and inference  
+
+**Tech & Tools:**  
 <img src="https://img.shields.io/badge/PyTorch-0ef?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=000000" />
 <img src="https://img.shields.io/badge/Transformers-0ef?style=for-the-badge&logo=transformers&logoColor=white&labelColor=000000" />
-💠 **Impact:** Full LLM pipeline — tokenization, training, inference
+<img src="https://img.shields.io/badge/Python-0ef?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" />
 
-### 📄 [PDF RAG System](https://github.com/Nikhil-MLOPs/pdf-rag-system)  
+---
+
+### 📄 [PDF RAG System](https://github.com/Nikhil-MLOPs/pdf-rag-system)
+**What I Built / Impact:**  
+- Built a Retrieval-Augmented Generation system for PDFs  
+- Enables intelligent document querying using embeddings + LLM  
+
+**Tech & Tools:**  
 <img src="https://img.shields.io/badge/FAISS-0ef?style=for-the-badge&logo=faiss&logoColor=white&labelColor=000000" />
 <img src="https://img.shields.io/badge/PyPDF2-0ef?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" />
-💠 **Impact:** Intelligent document retrieval + LLM-powered Q&A over PDFs
+<img src="https://img.shields.io/badge/Transformers-0ef?style=for-the-badge&logo=transformers&logoColor=white&labelColor=000000" />
 
 </div>
 
