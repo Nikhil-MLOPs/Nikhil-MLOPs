@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hey, I'm <span style="color:#0ef">Nikhil Bhardwaj</span></h1>
-<h3 align="center">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
+<h3 align="center">Machine Learning Engineer · IIT Dhanbad</h3>
 
 <p align="center">
   <a href="mailto:nikhil.bhardwaj.mlops@gmail.com"><img src="https://img.shields.io/badge/Email-0ef?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" /></a>
