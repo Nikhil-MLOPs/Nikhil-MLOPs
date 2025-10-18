@@ -1,1 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0a0f24, #161b33);
+  border-bottom: 2px solid #30363d;
+}
+header h1 { font-size: 2.2rem; color: #58a6ff; }
+header p { margin-top: 8px; font-size: 1.1rem; color: #c9d1d9; }
+.social-links a {
+  margin: 0 10px;
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+  border-left: 4px solid #58a6ff;
+  padding-left: 8px;
+}
+ul { margin-left: 20px; }
+.exp, .project {
+  background: #161b22;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #0d1117;
+}
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background: #0a0f24;
+  border-top: 2px solid #30363d;
+  color: #8b949e;
+}
 
