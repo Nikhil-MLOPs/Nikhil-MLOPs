@@ -7,6 +7,12 @@
   <a href="https://nikhil-mlops.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Nikhil-MLOPs&style=flat-square&color=0ea5a3" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Nikhil-MLOPs?style=flat-square&color=0ea5a3&logo=github" />
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fnikhil-mlops.github.io&style=flat-square&label=Portfolio%20Status&color=0ea5a3" />
+</p>
+
 ---
 
 ### 🧭 About Me  
@@ -34,22 +40,6 @@
 | **MLOps Tools** | MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana |
 | **Visualization** | Power BI, AWS QuickSight, Matplotlib, Seaborn, Plotly |
 | **Cloud & Databases** | AWS (S3, ECR, EKS), MySQL, Snowflake |
-
----
-
-### 💼 Experience
-
-**Quantitative Analyst — Opendoor / Home.LLC (Remote)**  
-*Jul 2024 – Mar 2025*  
-- Improved data quality by **25%** using Snowflake SQL  
-- Built **50+ QuickSight dashboards** (engagement +30%)  
-- Delivered **20+ analytical reports** for strategic decisions  
-
-**Machine Learning Intern — Internpe (Remote)**  
-*May 2024 – Jun 2024*  
-- Built predictive models improving accuracy by **10%**  
-- Processed **10K+ datapoints** with Pandas & Scikit-learn  
-- Delivered insight reports for stakeholders  
 
 ---
 
@@ -89,7 +79,7 @@
 
 ---
 
-### 📫 Contact
+### 📫 Connect with Me
 <p align="center">
   <b>📧</b> <a href="mailto:nikhil.bhardwaj.mlops@gmail.com">nikhil.bhardwaj.mlops@gmail.com</a> · 
   <b>🌐</b> <a href="https://nikhil-mlops.github.io/">nikhil-mlops.github.io</a>
@@ -97,4 +87,4 @@
 
 ---
 
-<p align="center"><sub>Built with ❤️ by Nikhil Bhardwaj · © 2025</sub></p>
+<p align="center"><sub>Built with ❤️ by Nikhil Bhardwaj · Auto-synced with my live portfolio · © 2025</sub></p>
