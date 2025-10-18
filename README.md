@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Nikhil Bhardwaj</h1>
+<h1 align="center">👋 Hey there, I'm Nikhil Bhardwaj</h1>
 <h3 align="center">Machine Learning & MLOps Engineer · IIT Dhanbad</h3>
 
 <p align="center">
@@ -15,56 +15,51 @@
 
 ---
 
-### 🧭 About Me  
-> Navigating into the nuances of **Data**.  
->
-> I've always been driven by a desire to push myself and chase ambitious goals. This pursuit led me to earn an **M.Tech in Electrical Engineering from IIT Dhanbad**, where I sharpened my technical and analytical skills through hard work and discipline.  
->
-> My next challenge was the **UPSC Civil Services Exam** — one of India’s toughest. Falling short by just **0.17 marks** at the prelims wasn’t a failure; it was a masterclass in **resilience, strategy, and perseverance**.  
->
-> My passion for **Mathematics** naturally evolved into an interest in **Python** and the world of **Data Science & Machine Learning** — fields that merge logic, creativity, and impact.  
->
-> To build a solid foundation, I completed a **6-month intensive Data Science & Machine Learning program at Odin School**, blending theory with hands-on projects and real datasets.  
->
-> Currently, I’m working as a **Quantitative Analyst at Opendoor (on payroll of Home.LLC)**, where I’m applying my analytical and ML skills in real-world environments, collaborating with professionals, and continuously expanding my expertise.  
->
-> My journey hasn’t been linear — but every step has shaped me into a **disciplined, adaptable, and data-driven professional**. I’m eager to leverage my background, problem-solving mindset, and relentless curiosity to make meaningful contributions in the evolving world of **Data Science & MLOps**.
+### 🧭 Who Am I?  
+> **Data, Math, Python, and relentless curiosity** — that’s my toolkit.  
+
+I’m a **Machine Learning & MLOps Engineer**, IIT Dhanbad alum, and someone who thrives on solving complex, high-impact problems.  
+
+- Conquered **IIT-level Electrical Engineering** with a master’s degree in **Power Electronics**.  
+- Tackled one of India’s toughest exams, **UPSC Civil Services**, and learned **resilience, strategy, and precision**.  
+- Transitioned my love for **Mathematics** into **Python-powered Data Science & Machine Learning** projects.  
+- Built a strong foundation via a **6-month intensive Data Science & ML program at Odin School**, working with real-world datasets and pipelines.  
+
+💡 I’m passionate about **building scalable ML systems, automating workflows, and driving data-driven impact**.  
 
 ---
 
-### ⚙️ Tech Stack
-| Category | Tools |
-|-----------|--------|
+### ⚡ Tech Arsenal
+| Domain | Tools & Tech |
+|--------|--------------|
 | **Languages** | Python, SQL |
-| **Machine Learning** | Regression, Classification, XGBoost, CNN, RNN, Transformers |
-| **MLOps Tools** | MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana |
+| **ML & AI** | Regression, Classification, XGBoost, CNN, RNN, Transformers |
+| **MLOps & DevOps** | MLflow, DVC, Docker, Kubernetes, GitHub Actions, Prometheus, Grafana |
 | **Visualization** | Power BI, AWS QuickSight, Matplotlib, Seaborn, Plotly |
-| **Cloud & Databases** | AWS (S3, ECR, EKS), MySQL, Snowflake |
+| **Cloud & DB** | AWS (S3, ECR, EKS), MySQL, Snowflake |
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Projects That Speak
+#### 🧩 Review Sentiment Analysis
+- **DVC** for data versioning, **MLflow** for experiment tracking  
+- Automated **CI/CD** with GitHub Actions  
+- **Dockerized** & deployed on **Kubernetes (EKS)**  
+- Real-time monitoring via **Prometheus & Grafana**
 
-#### 🧩 [Review Sentiment Analysis](https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis)
-- Versioned data with **DVC** & tracked experiments with **MLflow**  
-- Automated CI/CD using **GitHub Actions**  
-- Containerized using **Docker** & deployed on **Kubernetes (EKS)**  
-- Monitoring via **Prometheus & Grafana**
-
-#### 🏠 [Real Estate Price Prediction](https://github.com/nikhilgreen92/HomeLLC_Assignment/blob/main/Assignment_Submission_HOME_LLC.ipynb)
-- Built regression model to predict **Housing Price Index**  
-- EDA, feature engineering & data visualization for insights  
+#### 🏠 Real Estate Price Prediction
+- Predicting **Housing Price Index** using regression models  
+- End-to-end EDA, feature engineering & visualization for insights  
 
 ---
 
-### 🎓 Education
+### 🎓 Academic Forge
 🎓 **IIT Dhanbad** — M.Tech, Power Electronics & Electrical Drives (2015–2017) — GPA: 8.53/10  
-🎓 **Bharati Vidyapeeth College of Engineering, Pune** — B.Tech, Electrical Engineering (2010–2014) — 70.29%
+🎓 **Bharati Vidyapeeth College of Engineering, Pune** — B.Tech, Electrical Engineering (2010–2014) — 70.29%  
 
 ---
 
-### 📊 GitHub Overview
-
+### 📊 GitHub Pulse
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-MLOPs&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="160" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Nikhil-MLOPs&theme=transparent&hide_border=true" height="160" />
