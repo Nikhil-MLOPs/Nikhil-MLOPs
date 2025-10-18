@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil Bhardwaj | ML & MLOps Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-800 p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#about" class="text-xl font-bold">Nikhil Bhardwaj</a>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="pt-24 pb-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-cyan-400">About Me</h2>
+      <p class="mt-4 text-lg">I’m a postgraduate from IIT Dhanbad specializing in Machine Learning, MLOps, and Quantitative Analysis...</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-cyan-400">Projects</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Cards -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-cyan-400">Review Sentiment Analysis</h3>
+          <p class="mt-2 text-lg">Automated model training & deployment pipelines...</p>
+        </div>
+        <!-- Add more project cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-cyan-400">Contact Me</h2>
+      <p class="mt-4 text-lg">📧 <a href="mailto:nikhil.bhardwaj.mlops@gmail.com" class="text-cyan-400">nikhil.bhardwaj.mlops@gmail.com</a></p>
+    </div>
+  </section>
+
+</body>
+</html>
 
