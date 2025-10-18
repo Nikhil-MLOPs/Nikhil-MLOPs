@@ -9,7 +9,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans">
+<body class="bg-gray-900 text-gray-100 font-sans scroll-smooth">
 
 <!-- Navbar -->
 <nav class="fixed w-full bg-gray-900 z-50 shadow-lg border-b border-cyan-500">
@@ -73,28 +73,24 @@
 <section id="projects" data-animate class="max-w-6xl mx-auto px-6 py-20">
   <h2 class="text-4xl font-bold text-cyan-400 mb-8 border-l-4 border-cyan-500 pl-3">Projects</h2>
   <div class="grid gap-8 md:grid-cols-2">
-
     <div class="project-card">
       <h3 class="text-xl font-bold text-cyan-300 mb-2">
         <a href="https://github.com/Nikhil-MLOPs/Review-Sentiment-Analysis" target="_blank">Review Sentiment Analysis</a>
       </h3>
       <p class="text-gray-300">Automated ML pipelines with DVC & MLflow. Deployed on Kubernetes with monitoring via Prometheus & Grafana.</p>
     </div>
-
     <div class="project-card">
       <h3 class="text-xl font-bold text-cyan-300 mb-2">
         <a href="https://github.com/Nikhil-MLOPs/gpt2-from-scratch" target="_blank">GPT-2 LLM from Scratch</a>
       </h3>
       <p class="text-gray-300">Built a GPT-2 model from scratch including tokenization, training pipeline, and inference.</p>
     </div>
-
     <div class="project-card">
       <h3 class="text-xl font-bold text-cyan-300 mb-2">
         <a href="https://github.com/Nikhil-MLOPs/pdf-rag-system" target="_blank">PDF RAG System</a>
       </h3>
       <p class="text-gray-300">Implemented a retrieval-augmented system for intelligent PDF querying with embeddings + LLM.</p>
     </div>
-
   </div>
 </section>
 
@@ -119,7 +115,7 @@
 </section>
 
 <!-- Back to Top -->
-<button id="backToTop" class="fixed bottom-6 right-6 bg-cyan-500 text-white p-3 rounded-full shadow-lg hidden hover:bg-cyan-600 transition">↑ Top</button>
+<button id="backToTop" class="hidden">↑ Top</button>
 
 <script src="css/script.js"></script>
 </body>
